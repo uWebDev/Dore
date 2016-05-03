@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dore\n"
+"POT-Creation-Date: 2016-02-19 00:07+0300\n"
+"PO-Revision-Date: 2016-02-19 01:23+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _s;_sp:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: framework/Core/User/Authentication/Login.php:169
+msgid "Login or password is not entered correctly"
+msgstr "Логин или пароль пользователя введены не верно"
+
+#: framework/Core/User/Authentication/Login.php:187
+#, php-format
+msgid "You entered the wrong password for %1$d times or more. Please wait %2$d seconds to try again"
+msgstr "Вы ввели неправильный пароль уже %1$d или более раз. Пожалуйста, подождите %2$d секунд, чтобы попробовать еще раз"
+
+#: framework/Core/User/Authentication/Login.php:203
+msgid "Your account is not yet activated. Click the link in the email to activate"
+msgstr "Ваш аккаунт еще не активирован. Пройдите по ссылке в письме, чтобы активировать"
+
+#: framework/Core/User/Authentication/Login.php:217
+msgid "Your account is blocked"
+msgstr "Ваш аккаунт заблокирован"
+
+#: framework/Core/User/Tools/FindByActivationCode.php:52
+#: framework/Core/User/Tools/FindByResetCode.php:50
+msgid "The code is required"
+msgstr "Требуется код"
+
+#: framework/Core/User/Tools/FindByActivationCode.php:67
+msgid "The link to activate your account is not valid"
+msgstr "Ссылка для активации аккаунта не действительна"
+
+#: framework/Core/User/Tools/FindById.php:52
+#: framework/Core/User/Tools/FindBySocialIdAndProvider.php:54
+#, php-format
+msgid "The argument [%d] must be a valid User ID"
+msgstr "Аргумент [%d] должен быть действительным ID пользователя"
+
+#: framework/Core/User/Tools/FindById.php:67
+#: framework/Core/User/Tools/FindBySocialIdAndProvider.php:82
+#, php-format
+msgid "A user with ID [%d] not found."
+msgstr "Пользователь с ID [%d] не найден."
+
+#: framework/Core/User/Tools/FindByLogin.php:56
+msgid "The login is required"
+msgstr "Требуется логин"
+
+#: framework/Core/User/Tools/FindByLogin.php:70
+#, php-format
+msgid "A user with login [%s] not found."
+msgstr "Пользовать с логином [%s] не найден."
+
+#: framework/Core/User/Tools/FindByResetCode.php:64
+msgid "The link for changing the password is not valid"
+msgstr "Ссылка для смены пароля не действительна"
+
+#: framework/Core/User/Tools/FindBySocialIdAndProvider.php:67
+msgid "The provider is required"
+msgstr "Требуется провайдер"
+
+#: framework/Core/Validator/Validator.php:13
+msgid "Field is not filled"
+msgstr "Поле не заполнено"
+
+#: framework/Core/Validator/Validator.php:14
+msgid "Must be a number"
+msgstr "Должно быть целым числом"
+
+#: framework/Core/Validator/Validator.php:15
+msgid "Valid email address"
+msgstr "Некорректный email адресс"
+
+#: framework/Core/Validator/Validator.php:16
+msgid "Must be a minimum {$0}"
+msgstr "Должно быть минимум {$0}"
+
+#: framework/Core/Validator/Validator.php:17
+msgid "Must be a maximum {$0}"
+msgstr "Должно быть максимум {$0}"
+
+#: framework/Core/Validator/Validator.php:18
+msgid "Only letters (A-Z a-z) and numbers (0-9)"
+msgstr "Только буквы (A-Z a-z) и цифры (0-9)"
+
+#: framework/Core/Validator/Validator.php:19
+msgid "Must not contain only numbers"
+msgstr "Не должен состоять только из цифр"
+
+#: framework/Core/Validator/Validator.php:20
+msgid "Must match"
+msgstr "Должно совпадать"
+
+#~ msgid "Not enough data"
+#~ msgstr "Недостаточно данных"
+
+#~ msgid "Entered incorrect data"
+#~ msgstr "Введены неверные данные"
+
+#~ msgid "User not found"
+#~ msgstr "Пользователь не найден"

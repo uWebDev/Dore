@@ -1,0 +1,50 @@
+;|======================|
+;|======= Общие ========|
+;|======================|
+;
+verification_code = "Проверочный код"
+sex = "Пол персонажа"
+sex_m = "Мужской"
+sex_w = "Женский"
+save = "Сохранить"
+send = "Отправить"
+message = "Сообщение"
+y = "Да"
+n = "Нет"
+;|======================|
+;|======== Чат =========|
+;|======================|
+;
+chat = "Чат"
+;
+;|======================|
+;|====== Ошибки ========|
+;|======================|
+;
+error_there_are_errors = "Произошла ошибка"
+error_sql_failed = "Ошибка соединения с базой данных"
+error_user_not_existence = "Пользователь не найден"
+error_user_not_found = "Пользователь не найден"
+error_char_not_existence = "Такого персонажа не существует"
+error_no_char_name = "Нет персонажа с таким именем"
+error_account_is_locked = "Ваш аккаунт заблокирован"
+error_link_account_not_valid = "Ссылка для активации аккаунта не действительна"
+error_link_password_not_valid = "Ссылка для смены пароля не действительна"
+;
+;|=========================|
+;|======= Валидация =======|
+;|=========================|
+;
+error_field_not_filled = "Не заполнено поле" ; Field is not filled
+error_only_letters = "Только буквы (A-Z a-z)" ; Only letters (A-Z a-z)
+error_only_letters_numbers = "Только буквы (A-Z a-z) и цифры (0-9)" ; Only letters (A-Z a-z) and numbers (0-9)
+error_only_not_numbers = "Не должен состоять только из цифр" ; Must not contain only numbers
+error_incorrect_data = "Введены неверные данные" ; Introduced incorrect data
+error_not_enough_data = 'Недостаточно данных' ; Not enough data
+error_incorrect_email = 'Некорректный email' ; Valid email address
+error_must_match = 'Должно совпадать' ; Must match
+error_int = "Должно быть целым числом" ; Must be a number
+error_min_length_3 = "Должно быть минимум 3" ;  Must be a minimum
+error_min_length_8 = "Должно быть минимум 8"
+error_max_length_20 = "Должно быть максимум 20" ; Must be a maximum
+error_max_length_64 = "Должно быть максимум 64"

@@ -1,0 +1,26 @@
+{
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Dore\\": "app/framework/",
+            "App\\": "app/src/"
+        }
+    },
+    "require": {
+        "php-activerecord/php-activerecord": "dev-1.1-dev",
+        "symfony/http-foundation": "~3.0",
+        "pimple/pimple": "~3.0",
+        "alexgarrett/violin": "2.2.2",
+        "desarrolla2/cache": "1.8.*",
+        "monolog/monolog": "~1.11.0",
+        "psr/log": "~1.0",
+        "phpmailer/phpmailer": "~5.2.9",
+        "league/plates": "~3.1.0",
+        "altorouter/altorouter": "1.1.0",
+        "ezyang/htmlpurifier": "4.6.0",
+        "ircmaxell/random-lib": "1.1.*",
+        "apix/log": "1.0.*",
+        "sinergi/config": "0.5.*",
+        "ohmy/auth": "^0.0.7"
+    }
+}
